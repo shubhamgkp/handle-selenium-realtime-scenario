@@ -1,5 +1,7 @@
 package handlingTableGrids;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,6 +16,7 @@ public class HandleTableGrid {
 		driver = new ChromeDriver();
 		driver.navigate().to("https://www.cricbuzz.com/live-cricket-scorecard/21587/syl-vs-rgr-18th-match-bangladesh-premier-league-2019");
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5000, TimeUnit.SECONDS);
 		
 		WebElement table =driver.findElement(By.cssSelector("div[class='cb-col cb-col-100 cb-ltst-wgt-hdr']"));
 		
@@ -26,5 +29,7 @@ public class HandleTableGrid {
 
 			System.out.println(table.findElements(By.cssSelector("div[class='cb-col cb-col-100 cb-scrd-itms'] div:nth-child(3)")).get(i).getText());
 		}
+		System.out.println(driver.findElement(By.xpath("//div[text()='Extras']/following-sibling::div")).getText());
+		System.out.println(driver.findElement(By.xpath("//div[text()='Total']/following-sibling::div")).getText());
 	}
 }
