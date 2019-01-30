@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handlingDiffScenario.HandleAutoSuggestDropDownWthSelenium">
+      <class name="handlingDropDown.HandleDynamicDropDown">
         <methods>
-          <include name="handleAutoSuggestDropDown"/>
+          <include name="handleDynamicDropDown"/>
         </methods>
-      </class> <!-- handlingDiffScenario.HandleAutoSuggestDropDownWthSelenium -->
+      </class> <!-- handlingDropDown.HandleDynamicDropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

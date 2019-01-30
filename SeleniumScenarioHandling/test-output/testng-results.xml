@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28951" started-at="2019-01-11T19:36:53Z" finished-at="2019-01-11T19:37:22Z">
+  <suite name="Default suite" duration-ms="16365" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28951" started-at="2019-01-11T19:36:53Z" finished-at="2019-01-11T19:37:22Z">
-      <class name="handlingDiffScenario.HandleAutoSuggestDropDownWthSelenium">
-        <test-method status="PASS" signature="handleAutoSuggestDropDown()[pri:0, instance:handlingDiffScenario.HandleAutoSuggestDropDownWthSelenium@1d8d30f7]" name="handleAutoSuggestDropDown" duration-ms="28914" started-at="2019-01-11T19:36:53Z" finished-at="2019-01-11T19:37:22Z">
+    <test name="Default test" duration-ms="16365" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
+      <class name="handlingDropDown.HandleDynamicDropDown">
+        <test-method status="PASS" signature="handleDynamicDropDown()[pri:0, instance:handlingDropDown.HandleDynamicDropDown@1d8d30f7]" name="handleDynamicDropDown" duration-ms="16331" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleAutoSuggestDropDown -->
-      </class> <!-- handlingDiffScenario.HandleAutoSuggestDropDownWthSelenium -->
+        </test-method> <!-- handleDynamicDropDown -->
+      </class> <!-- handlingDropDown.HandleDynamicDropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
