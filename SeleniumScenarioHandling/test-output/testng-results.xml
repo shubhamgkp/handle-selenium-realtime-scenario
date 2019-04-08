@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16365" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
+  <suite name="Default suite" duration-ms="24573" started-at="2019-04-08T16:37:32Z" finished-at="2019-04-08T16:37:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16365" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
-      <class name="handlingDropDown.HandleDynamicDropDown">
-        <test-method status="PASS" signature="handleDynamicDropDown()[pri:0, instance:handlingDropDown.HandleDynamicDropDown@1d8d30f7]" name="handleDynamicDropDown" duration-ms="16331" started-at="2019-01-30T12:17:15Z" finished-at="2019-01-30T12:17:32Z">
+    <test name="Default test" duration-ms="24573" started-at="2019-04-08T16:37:32Z" finished-at="2019-04-08T16:37:57Z">
+      <class name="handlingMMTAction.HandleOneWay">
+        <test-method status="PASS" signature="bookOneWayTrip()[pri:0, instance:handlingMMTAction.HandleOneWay@1d8d30f7]" name="bookOneWayTrip" duration-ms="24537" started-at="2019-04-08T16:37:32Z" finished-at="2019-04-08T16:37:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- handleDynamicDropDown -->
-      </class> <!-- handlingDropDown.HandleDynamicDropDown -->
+        </test-method> <!-- bookOneWayTrip -->
+      </class> <!-- handlingMMTAction.HandleOneWay -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

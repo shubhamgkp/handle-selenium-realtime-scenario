@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="handlingDropDown.HandleDynamicDropDown">
+      <class name="handlingMMTAction.HandleOneWay">
         <methods>
-          <include name="handleDynamicDropDown"/>
+          <include name="bookOneWayTrip"/>
         </methods>
-      </class> <!-- handlingDropDown.HandleDynamicDropDown -->
+      </class> <!-- handlingMMTAction.HandleOneWay -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
