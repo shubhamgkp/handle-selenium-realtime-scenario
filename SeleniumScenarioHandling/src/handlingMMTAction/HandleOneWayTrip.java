@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-public class HandleOneWay {
+public class HandleOneWayTrip {
 
 	@Test
 	public void bookOneWayTrip() throws InterruptedException {
